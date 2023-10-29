@@ -369,6 +369,7 @@ button {
   text-transform: uppercase;
   color: var(--white);
   background: rgba(47, 48, 58, 0.8);
+  cursor: not-allowed;
 }
 
 .paragraph-title {
@@ -743,4 +744,71 @@ footer {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
+}
+
+.modal-form {
+  width: 28rem;
+  margin: 1rem;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.modal-label {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+  margin-bottom: 8px;
+}
+
+input {
+  border-style: dotted;
+  padding: 8px;
+}
+
+.form-button {
+  display: inline-flex;
+  padding: 12px 32px;
+  border: none;
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: inherit;
+  cursor: pointer;
+}
+
+.form-caption {
+  margin-bottom: 16px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+
+.form-label {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.form-input {
+  padding: 8px;
+  border: 1px solid #2a2a2a;
+  border-radius: 4px;
+  font-family: sans-serif;
+  font-size: 16px;
+  outline: none;
+}
+
+.button-container {
+  position: relative;
+}
+.submit-button {
+  margin-top: 24px;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
 }

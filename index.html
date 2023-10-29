@@ -74,6 +74,64 @@
           </button>
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
+              <form class="modal-form">
+                <p class="form-caption">
+                  Zostaw swoje dane w formularzu poniżej
+                </p>
+
+                <div><svg class="link-icon" width="16px" height="12px">
+                  <use href="./images/icons.svg#icon-smartphone"></use>
+                </svg></div>
+                
+
+                <div class="form-field">
+                  <label for="name" class="form-label">Imię</label>
+                  <input
+                    type="text"
+                    required
+                    minlength="1"
+                    maxlength="20"
+                    value=""
+                    name="name"
+                    id="name"
+                    class="form-input"
+                  />
+                </div>
+
+                <div class="form-field">
+                  <label for="user_email" class="form-label">Email</label>
+
+                  <input
+                    type="email"
+                    required
+                    minlength="1"
+                    maxlength="20"
+                    value=""
+                    name="email"
+                    id="user_email"
+                    class="form-input"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="name" class="form-label">Telefon</label>
+                  <input
+                    type="text"
+                    required
+                    minlength="1"
+                    maxlength="20"
+                    value=""
+                    name="name"
+                    id="name"
+                    class="form-input"
+                  />
+                </div>
+
+                <div class="button-container">
+                  <div class="submit-button">
+                    <button type="submit" class="form-button">Submit</button>
+                  </div>
+                </div>
+              </form>
               <button type="button" class="exit" data-modal-close>X</button>
             </div>
           </div>
